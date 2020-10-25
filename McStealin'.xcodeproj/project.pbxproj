@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0340B8FD1897E0AAF41AE7F6 /* Pods_McStealin_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9401D956587C82727861A /* Pods_McStealin_Tests.framework */; };
+		58DABA2C646081F18D1E530C /* Pods_McStealin__McStealin_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DECA069EDA2145A07034A4 /* Pods_McStealin__McStealin_UITests.framework */; };
+		8B2B4F9224942B6B8BB32598 /* Pods_McStealin_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B219B31A08542DFD06E59844 /* Pods_McStealin_.framework */; };
+		D71B43F2250712A80090A880 /* pickPrizeBaconAndEgg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71B43F1250712A80090A880 /* pickPrizeBaconAndEgg.jpg */; };
+		D71B43F4250712B10090A880 /* readyBaconAndEgg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71B43F3250712B10090A880 /* readyBaconAndEgg.jpg */; };
+		D71B43F6250712BC0090A880 /* timesTickingBaconAndEgg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71B43F5250712BC0090A880 /* timesTickingBaconAndEgg.jpg */; };
+		D71B43F82507130A0090A880 /* ReadyToClaimBaconNEgg.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71B43F72507130A0090A880 /* ReadyToClaimBaconNEgg.swift */; };
+		D71B43FA25071C8E0090A880 /* AreYouReadyMcMuffin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71B43F925071C8E0090A880 /* AreYouReadyMcMuffin.swift */; };
+		D71B43FC25071D0D0090A880 /* timesTickingBaconAndEgg.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71B43FB25071D0D0090A880 /* timesTickingBaconAndEgg.swift */; };
+		D74F167923AA4A2C00B11F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74F167823AA4A2C00B11F4E /* AppDelegate.swift */; };
+		D74F167D23AA4A2C00B11F4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74F167C23AA4A2C00B11F4E /* ViewController.swift */; };
+		D74F168023AA4A2C00B11F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74F167E23AA4A2C00B11F4E /* Main.storyboard */; };
+		D74F168223AA4A3000B11F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74F168123AA4A3000B11F4E /* Assets.xcassets */; };
+		D74F168523AA4A3000B11F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74F168323AA4A3000B11F4E /* LaunchScreen.storyboard */; };
+		D74F169023AA4A3100B11F4E /* McStealin_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74F168F23AA4A3100B11F4E /* McStealin_Tests.swift */; };
+		D74F169B23AA4A3100B11F4E /* McStealin_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74F169A23AA4A3100B11F4E /* McStealin_UITests.swift */; };
+		D762628F24FF38AD0047BC27 /* launchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D762628E24FF38AC0047BC27 /* launchImage.jpg */; };
+		D78C5AC025003F8D00861D3E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78C5ABF25003F8D00861D3E /* SettingsViewController.swift */; };
+		D7989FE5250233B800209881 /* baconeggmcmuffin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7989FE4250233B800209881 /* baconeggmcmuffin.jpg */; };
+		D7989FE7250233C600209881 /* mainImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7989FE6250233C600209881 /* mainImage.jpg */; };
+		D7989FE9250233D300209881 /* settingsImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7989FE8250233D300209881 /* settingsImage.jpg */; };
+		D79AE92823C1E3E2005BCE4B /* backgroundImageBlurred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D79AE92723C1E3E2005BCE4B /* backgroundImageBlurred.jpg */; };
+		D7A557802502393E00AEA994 /* baconEggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5577F2502393E00AEA994 /* baconEggView.swift */; };
+		D7A5578225023D5100AEA994 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5578125023D5100AEA994 /* SettingViewController.swift */; };
+		D7C7DF0423AA683F00CB1438 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C7DF0323AA683E00CB1438 /* SceneDelegate.swift */; };
+		D7C7DF0623AB096900CB1438 /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C7DF0523AB096900CB1438 /* OtherController.swift */; };
+		D7C7DF0823AB1E5B00CB1438 /* BurgerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C7DF0723AB1E5B00CB1438 /* BurgerController.swift */; };
+		D7C7DF1423AF208500CB1438 /* AppIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7C7DF1323AF208500CB1438 /* AppIcon.jpg */; };
+		D7D62D54251BED8500275E8E /* timesTickingBigMac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7D62D53251BED8500275E8E /* timesTickingBigMac.jpg */; };
+		D7D62D56251BEDA100275E8E /* TimesTickingBigMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D62D55251BEDA100275E8E /* TimesTickingBigMac.swift */; };
+		D7F412292508497000268325 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7F412282508497000268325 /* Icon-App-60x60@3x.png */; };
+		D7F4122C2509C80F00268325 /* sundaeWinneriphone11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7F4122B2509C80F00268325 /* sundaeWinneriphone11.jpg */; };
+		D7F4122E2509CA4700268325 /* pickprizeSundaeiphone11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7F4122D2509CA4700268325 /* pickprizeSundaeiphone11.jpg */; };
+		D7F412302509CCCE00268325 /* timesTickingSundaeiphone11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7F4122F2509CCCD00268325 /* timesTickingSundaeiphone11.jpg */; };
+		D7F412322509CD9A00268325 /* timesTickingSundae.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F412312509CD9A00268325 /* timesTickingSundae.swift */; };
+		D7F412342509CEA000268325 /* readyToClaimSundae.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F412332509CEA000268325 /* readyToClaimSundae.swift */; };
+		D7F41236250AFA2900268325 /* winnerSundae.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F41235250AFA2900268325 /* winnerSundae.swift */; };
+		D7F41238250AFBC600268325 /* pickPrizeSundae.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F41237250AFBC600268325 /* pickPrizeSundae.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D74F168C23AA4A3100B11F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74F166D23AA4A2C00B11F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74F167423AA4A2C00B11F4E;
+			remoteInfo = "McStealin'";
+		};
+		D74F169723AA4A3100B11F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74F166D23AA4A2C00B11F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74F167423AA4A2C00B11F4E;
+			remoteInfo = "McStealin'";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CA3AD333AE2E05165B99746 /* Pods-McStealin'-McStealin'UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McStealin'-McStealin'UITests.release.xcconfig"; path = "Target Support Files/Pods-McStealin'-McStealin'UITests/Pods-McStealin'-McStealin'UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3972AE55E45132B786768359 /* Pods-McStealin'.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McStealin'.release.xcconfig"; path = "Target Support Files/Pods-McStealin'/Pods-McStealin'.release.xcconfig"; sourceTree = "<group>"; };
+		7ED9401D956587C82727861A /* Pods_McStealin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_McStealin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8350015071D087CC44A29630 /* Pods-McStealin'.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McStealin'.debug.xcconfig"; path = "Target Support Files/Pods-McStealin'/Pods-McStealin'.debug.xcconfig"; sourceTree = "<group>"; };
+		93613A917FF553BFDA112BD9 /* Pods-McStealin'-McStealin'UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McStealin'-McStealin'UITests.debug.xcconfig"; path = "Target Support Files/Pods-McStealin'-McStealin'UITests/Pods-McStealin'-McStealin'UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B219B31A08542DFD06E59844 /* Pods_McStealin_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_McStealin_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DECA069EDA2145A07034A4 /* Pods_McStealin__McStealin_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_McStealin__McStealin_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71B43F1250712A80090A880 /* pickPrizeBaconAndEgg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pickPrizeBaconAndEgg.jpg; path = "McStealin'/Assets.xcassets/images/pickPrizeBaconAndEgg.jpg"; sourceTree = SOURCE_ROOT; };
+		D71B43F3250712B10090A880 /* readyBaconAndEgg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = readyBaconAndEgg.jpg; path = "McStealin'/Assets.xcassets/images/readyBaconAndEgg.jpg"; sourceTree = SOURCE_ROOT; };
+		D71B43F5250712BC0090A880 /* timesTickingBaconAndEgg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = timesTickingBaconAndEgg.jpg; path = "McStealin'/Assets.xcassets/images/timesTickingBaconAndEgg.jpg"; sourceTree = SOURCE_ROOT; };
+		D71B43F72507130A0090A880 /* ReadyToClaimBaconNEgg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyToClaimBaconNEgg.swift; sourceTree = "<group>"; };
+		D71B43F925071C8E0090A880 /* AreYouReadyMcMuffin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreYouReadyMcMuffin.swift; sourceTree = "<group>"; };
+		D71B43FB25071D0D0090A880 /* timesTickingBaconAndEgg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timesTickingBaconAndEgg.swift; sourceTree = "<group>"; };
+		D74F167523AA4A2C00B11F4E /* McStealin'.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "McStealin'.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74F167823AA4A2C00B11F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D74F167C23AA4A2C00B11F4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D74F167F23AA4A2C00B11F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D74F168123AA4A3000B11F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D74F168423AA4A3000B11F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D74F168623AA4A3000B11F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74F168B23AA4A3100B11F4E /* McStealin'Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McStealin'Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74F168F23AA4A3100B11F4E /* McStealin_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McStealin_Tests.swift; sourceTree = "<group>"; };
+		D74F169123AA4A3100B11F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74F169623AA4A3100B11F4E /* McStealin'UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McStealin'UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74F169A23AA4A3100B11F4E /* McStealin_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McStealin_UITests.swift; sourceTree = "<group>"; };
+		D74F169C23AA4A3100B11F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D762628E24FF38AC0047BC27 /* launchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchImage.jpg; sourceTree = "<group>"; };
+		D78C5ABF25003F8D00861D3E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D78C5AC32500400300861D3E /* settingsBackgroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = settingsBackgroundImage.jpg; sourceTree = "<group>"; };
+		D7989FE4250233B800209881 /* baconeggmcmuffin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = baconeggmcmuffin.jpg; path = "McStealin'/Assets.xcassets/images/baconeggmcmuffin.jpg"; sourceTree = SOURCE_ROOT; };
+		D7989FE6250233C600209881 /* mainImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mainImage.jpg; path = "McStealin'/Assets.xcassets/images/mainImage.jpg"; sourceTree = SOURCE_ROOT; };
+		D7989FE8250233D300209881 /* settingsImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = settingsImage.jpg; path = "McStealin'/Assets.xcassets/images/settingsImage.jpg"; sourceTree = SOURCE_ROOT; };
+		D79AE92723C1E3E2005BCE4B /* backgroundImageBlurred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backgroundImageBlurred.jpg; path = ../../images/backgroundImageBlurred.jpg; sourceTree = "<group>"; };
+		D7A5577F2502393E00AEA994 /* baconEggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baconEggView.swift; sourceTree = "<group>"; };
+		D7A5578125023D5100AEA994 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		D7C7DF0323AA683E00CB1438 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7C7DF0523AB096900CB1438 /* OtherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
+		D7C7DF0723AB1E5B00CB1438 /* BurgerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BurgerController.swift; path = "/Users/jaden/Desktop/Xcode Projects/McStealin'/McStealin'/McStealin'/BurgerController.swift"; sourceTree = "<absolute>"; };
+		D7C7DF1323AF208500CB1438 /* AppIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AppIcon.jpg; path = Assets.xcassets/images/AppIcon.jpg; sourceTree = "<group>"; };
+		D7D62D53251BED8500275E8E /* timesTickingBigMac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = timesTickingBigMac.jpg; path = ../Assets.xcassets/images/timesTickingBigMac.jpg; sourceTree = "<group>"; };
+		D7D62D55251BEDA100275E8E /* TimesTickingBigMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesTickingBigMac.swift; sourceTree = "<group>"; };
+		D7F412282508497000268325 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@3x.png"; path = "../../images/Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		D7F4122B2509C80F00268325 /* sundaeWinneriphone11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sundaeWinneriphone11.jpg; path = "McStealin'/Assets.xcassets/images/sundaeWinneriphone11.jpg"; sourceTree = SOURCE_ROOT; };
+		D7F4122D2509CA4700268325 /* pickprizeSundaeiphone11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pickprizeSundaeiphone11.jpg; path = "McStealin'/Assets.xcassets/images/pickprizeSundaeiphone11.jpg"; sourceTree = SOURCE_ROOT; };
+		D7F4122F2509CCCD00268325 /* timesTickingSundaeiphone11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = timesTickingSundaeiphone11.jpg; path = "McStealin'/Assets.xcassets/images/timesTickingSundaeiphone11.jpg"; sourceTree = SOURCE_ROOT; };
+		D7F412312509CD9A00268325 /* timesTickingSundae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timesTickingSundae.swift; sourceTree = "<group>"; };
+		D7F412332509CEA000268325 /* readyToClaimSundae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readyToClaimSundae.swift; sourceTree = "<group>"; };
+		D7F41235250AFA2900268325 /* winnerSundae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = winnerSundae.swift; sourceTree = "<group>"; };
+		D7F41237250AFBC600268325 /* pickPrizeSundae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickPrizeSundae.swift; sourceTree = "<group>"; };
+		DAFF4CE5B344FF02067DF566 /* Pods-McStealin'Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McStealin'Tests.release.xcconfig"; path = "Target Support Files/Pods-McStealin'Tests/Pods-McStealin'Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F4AABEA1A6E3514CBEB3A2AF /* Pods-McStealin'Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McStealin'Tests.debug.xcconfig"; path = "Target Support Files/Pods-McStealin'Tests/Pods-McStealin'Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74F167223AA4A2C00B11F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2B4F9224942B6B8BB32598 /* Pods_McStealin_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F168823AA4A3100B11F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0340B8FD1897E0AAF41AE7F6 /* Pods_McStealin_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F169323AA4A3100B11F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DABA2C646081F18D1E530C /* Pods_McStealin__McStealin_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0ACB4B511F2CD49677C5C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B219B31A08542DFD06E59844 /* Pods_McStealin_.framework */,
+				C0DECA069EDA2145A07034A4 /* Pods_McStealin__McStealin_UITests.framework */,
+				7ED9401D956587C82727861A /* Pods_McStealin_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		925D6E353F6D10405EE58E86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8350015071D087CC44A29630 /* Pods-McStealin'.debug.xcconfig */,
+				3972AE55E45132B786768359 /* Pods-McStealin'.release.xcconfig */,
+				93613A917FF553BFDA112BD9 /* Pods-McStealin'-McStealin'UITests.debug.xcconfig */,
+				2CA3AD333AE2E05165B99746 /* Pods-McStealin'-McStealin'UITests.release.xcconfig */,
+				F4AABEA1A6E3514CBEB3A2AF /* Pods-McStealin'Tests.debug.xcconfig */,
+				DAFF4CE5B344FF02067DF566 /* Pods-McStealin'Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D728AC65245D33FB00D02B9C /* Options Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D78C5ABF25003F8D00861D3E /* SettingsViewController.swift */,
+			);
+			path = "Options Controllers";
+			sourceTree = "<group>";
+		};
+		D74F166C23AA4A2C00B11F4E = {
+			isa = PBXGroup;
+			children = (
+				D74F167723AA4A2C00B11F4E /* McStealin' */,
+				D74F168E23AA4A3100B11F4E /* McStealin'Tests */,
+				D74F169923AA4A3100B11F4E /* McStealin'UITests */,
+				D74F167623AA4A2C00B11F4E /* Products */,
+				925D6E353F6D10405EE58E86 /* Pods */,
+				0D0ACB4B511F2CD49677C5C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D74F167623AA4A2C00B11F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74F167523AA4A2C00B11F4E /* McStealin'.app */,
+				D74F168B23AA4A3100B11F4E /* McStealin'Tests.xctest */,
+				D74F169623AA4A3100B11F4E /* McStealin'UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74F167723AA4A2C00B11F4E /* McStealin' */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4122A2509C7DA00268325 /* iphone 11 Images */,
+				D7989FE32502338F00209881 /* Images */,
+				D7A60834241AED040091AD68 /* Times Ticking */,
+				D7EBDA532545954200AA283B /* Ready to Claim Controllers */,
+				D76A6A1F23ECB7680003F03D /* Won Controllers */,
+				D728AC65245D33FB00D02B9C /* Options Controllers */,
+				D74F167E23AA4A2C00B11F4E /* Main.storyboard */,
+				D7F41237250AFBC600268325 /* pickPrizeSundae.swift */,
+				D7A5578125023D5100AEA994 /* SettingViewController.swift */,
+				D74F167823AA4A2C00B11F4E /* AppDelegate.swift */,
+				D7C7DF0323AA683E00CB1438 /* SceneDelegate.swift */,
+				D74F167C23AA4A2C00B11F4E /* ViewController.swift */,
+				D7C7DF0723AB1E5B00CB1438 /* BurgerController.swift */,
+				D7C7DF0523AB096900CB1438 /* OtherController.swift */,
+				D74F168323AA4A3000B11F4E /* LaunchScreen.storyboard */,
+				D74F168623AA4A3000B11F4E /* Info.plist */,
+				D74F168123AA4A3000B11F4E /* Assets.xcassets */,
+				D79AE92723C1E3E2005BCE4B /* backgroundImageBlurred.jpg */,
+				D7C7DF1323AF208500CB1438 /* AppIcon.jpg */,
+				D7F412282508497000268325 /* Icon-App-60x60@3x.png */,
+			);
+			path = "McStealin'";
+			sourceTree = "<group>";
+		};
+		D74F168E23AA4A3100B11F4E /* McStealin'Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D74F168F23AA4A3100B11F4E /* McStealin_Tests.swift */,
+				D74F169123AA4A3100B11F4E /* Info.plist */,
+			);
+			path = "McStealin'Tests";
+			sourceTree = "<group>";
+		};
+		D74F169923AA4A3100B11F4E /* McStealin'UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D74F169A23AA4A3100B11F4E /* McStealin_UITests.swift */,
+				D74F169C23AA4A3100B11F4E /* Info.plist */,
+			);
+			path = "McStealin'UITests";
+			sourceTree = "<group>";
+		};
+		D76A6A1F23ECB7680003F03D /* Won Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5577F2502393E00AEA994 /* baconEggView.swift */,
+				D7F41235250AFA2900268325 /* winnerSundae.swift */,
+			);
+			path = "Won Controllers";
+			sourceTree = "<group>";
+		};
+		D7989FE32502338F00209881 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D7D62D53251BED8500275E8E /* timesTickingBigMac.jpg */,
+				D7F4122F2509CCCD00268325 /* timesTickingSundaeiphone11.jpg */,
+				D71B43F5250712BC0090A880 /* timesTickingBaconAndEgg.jpg */,
+				D71B43F3250712B10090A880 /* readyBaconAndEgg.jpg */,
+				D71B43F1250712A80090A880 /* pickPrizeBaconAndEgg.jpg */,
+				D7989FE8250233D300209881 /* settingsImage.jpg */,
+				D7989FE6250233C600209881 /* mainImage.jpg */,
+				D7989FE4250233B800209881 /* baconeggmcmuffin.jpg */,
+				D762628E24FF38AC0047BC27 /* launchImage.jpg */,
+				D78C5AC32500400300861D3E /* settingsBackgroundImage.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D7A60834241AED040091AD68 /* Times Ticking */ = {
+			isa = PBXGroup;
+			children = (
+				D71B43FB25071D0D0090A880 /* timesTickingBaconAndEgg.swift */,
+				D7F412312509CD9A00268325 /* timesTickingSundae.swift */,
+				D7D62D55251BEDA100275E8E /* TimesTickingBigMac.swift */,
+			);
+			path = "Times Ticking";
+			sourceTree = "<group>";
+		};
+		D7EBDA532545954200AA283B /* Ready to Claim Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7F412332509CEA000268325 /* readyToClaimSundae.swift */,
+				D71B43F72507130A0090A880 /* ReadyToClaimBaconNEgg.swift */,
+				D71B43F925071C8E0090A880 /* AreYouReadyMcMuffin.swift */,
+			);
+			path = "Ready to Claim Controllers";
+			sourceTree = "<group>";
+		};
+		D7F4122A2509C7DA00268325 /* iphone 11 Images */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4122D2509CA4700268325 /* pickprizeSundaeiphone11.jpg */,
+				D7F4122B2509C80F00268325 /* sundaeWinneriphone11.jpg */,
+			);
+			path = "iphone 11 Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74F167423AA4A2C00B11F4E /* McStealin' */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74F169F23AA4A3100B11F4E /* Build configuration list for PBXNativeTarget "McStealin'" */;
+			buildPhases = (
+				40E182FE479F42A603C51F16 /* [CP] Check Pods Manifest.lock */,
+				D74F167123AA4A2C00B11F4E /* Sources */,
+				D74F167223AA4A2C00B11F4E /* Frameworks */,
+				D74F167323AA4A2C00B11F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "McStealin'";
+			productName = "McStealin'";
+			productReference = D74F167523AA4A2C00B11F4E /* McStealin'.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D74F168A23AA4A3100B11F4E /* McStealin'Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74F16A223AA4A3100B11F4E /* Build configuration list for PBXNativeTarget "McStealin'Tests" */;
+			buildPhases = (
+				6B45A95C51B0D0CCFA7FBD1A /* [CP] Check Pods Manifest.lock */,
+				D74F168723AA4A3100B11F4E /* Sources */,
+				D74F168823AA4A3100B11F4E /* Frameworks */,
+				D74F168923AA4A3100B11F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74F168D23AA4A3100B11F4E /* PBXTargetDependency */,
+			);
+			name = "McStealin'Tests";
+			productName = "McStealin'Tests";
+			productReference = D74F168B23AA4A3100B11F4E /* McStealin'Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D74F169523AA4A3100B11F4E /* McStealin'UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74F16A523AA4A3100B11F4E /* Build configuration list for PBXNativeTarget "McStealin'UITests" */;
+			buildPhases = (
+				989FF97E73A4F3B33BDF912B /* [CP] Check Pods Manifest.lock */,
+				D74F169223AA4A3100B11F4E /* Sources */,
+				D74F169323AA4A3100B11F4E /* Frameworks */,
+				D74F169423AA4A3100B11F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74F169823AA4A3100B11F4E /* PBXTargetDependency */,
+			);
+			name = "McStealin'UITests";
+			productName = "McStealin'UITests";
+			productReference = D74F169623AA4A3100B11F4E /* McStealin'UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74F166D23AA4A2C00B11F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Jaden Stewart";
+				TargetAttributes = {
+					D74F167423AA4A2C00B11F4E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					D74F168A23AA4A3100B11F4E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D74F167423AA4A2C00B11F4E;
+					};
+					D74F169523AA4A3100B11F4E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D74F167423AA4A2C00B11F4E;
+					};
+				};
+			};
+			buildConfigurationList = D74F167023AA4A2C00B11F4E /* Build configuration list for PBXProject "McStealin'" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D74F166C23AA4A2C00B11F4E;
+			productRefGroup = D74F167623AA4A2C00B11F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74F167423AA4A2C00B11F4E /* McStealin' */,
+				D74F168A23AA4A3100B11F4E /* McStealin'Tests */,
+				D74F169523AA4A3100B11F4E /* McStealin'UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74F167323AA4A2C00B11F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F4122E2509CA4700268325 /* pickprizeSundaeiphone11.jpg in Resources */,
+				D7989FE9250233D300209881 /* settingsImage.jpg in Resources */,
+				D7F412302509CCCE00268325 /* timesTickingSundaeiphone11.jpg in Resources */,
+				D71B43F2250712A80090A880 /* pickPrizeBaconAndEgg.jpg in Resources */,
+				D71B43F6250712BC0090A880 /* timesTickingBaconAndEgg.jpg in Resources */,
+				D71B43F4250712B10090A880 /* readyBaconAndEgg.jpg in Resources */,
+				D74F168523AA4A3000B11F4E /* LaunchScreen.storyboard in Resources */,
+				D7F412292508497000268325 /* Icon-App-60x60@3x.png in Resources */,
+				D7C7DF1423AF208500CB1438 /* AppIcon.jpg in Resources */,
+				D7989FE5250233B800209881 /* baconeggmcmuffin.jpg in Resources */,
+				D7989FE7250233C600209881 /* mainImage.jpg in Resources */,
+				D79AE92823C1E3E2005BCE4B /* backgroundImageBlurred.jpg in Resources */,
+				D7D62D54251BED8500275E8E /* timesTickingBigMac.jpg in Resources */,
+				D74F168223AA4A3000B11F4E /* Assets.xcassets in Resources */,
+				D762628F24FF38AD0047BC27 /* launchImage.jpg in Resources */,
+				D74F168023AA4A2C00B11F4E /* Main.storyboard in Resources */,
+				D7F4122C2509C80F00268325 /* sundaeWinneriphone11.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F168923AA4A3100B11F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F169423AA4A3100B11F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40E182FE479F42A603C51F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-McStealin'-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B45A95C51B0D0CCFA7FBD1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-McStealin'Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		989FF97E73A4F3B33BDF912B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-McStealin'-McStealin'UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74F167123AA4A2C00B11F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74F167D23AA4A2C00B11F4E /* ViewController.swift in Sources */,
+				D74F167923AA4A2C00B11F4E /* AppDelegate.swift in Sources */,
+				D7C7DF0623AB096900CB1438 /* OtherController.swift in Sources */,
+				D7C7DF0423AA683F00CB1438 /* SceneDelegate.swift in Sources */,
+				D71B43FC25071D0D0090A880 /* timesTickingBaconAndEgg.swift in Sources */,
+				D7F412322509CD9A00268325 /* timesTickingSundae.swift in Sources */,
+				D7D62D56251BEDA100275E8E /* TimesTickingBigMac.swift in Sources */,
+				D71B43F82507130A0090A880 /* ReadyToClaimBaconNEgg.swift in Sources */,
+				D7A5578225023D5100AEA994 /* SettingViewController.swift in Sources */,
+				D78C5AC025003F8D00861D3E /* SettingsViewController.swift in Sources */,
+				D7F41238250AFBC600268325 /* pickPrizeSundae.swift in Sources */,
+				D7F41236250AFA2900268325 /* winnerSundae.swift in Sources */,
+				D7F412342509CEA000268325 /* readyToClaimSundae.swift in Sources */,
+				D71B43FA25071C8E0090A880 /* AreYouReadyMcMuffin.swift in Sources */,
+				D7A557802502393E00AEA994 /* baconEggView.swift in Sources */,
+				D7C7DF0823AB1E5B00CB1438 /* BurgerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F168723AA4A3100B11F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74F169023AA4A3100B11F4E /* McStealin_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74F169223AA4A3100B11F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74F169B23AA4A3100B11F4E /* McStealin_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D74F168D23AA4A3100B11F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74F167423AA4A2C00B11F4E /* McStealin' */;
+			targetProxy = D74F168C23AA4A3100B11F4E /* PBXContainerItemProxy */;
+		};
+		D74F169823AA4A3100B11F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74F167423AA4A2C00B11F4E /* McStealin' */;
+			targetProxy = D74F169723AA4A3100B11F4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D74F167E23AA4A2C00B11F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74F167F23AA4A2C00B11F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D74F168323AA4A3000B11F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74F168423AA4A3000B11F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D74F169D23AA4A3100B11F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D74F169E23AA4A3100B11F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74F16A023AA4A3100B11F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8350015071D087CC44A29630 /* Pods-McStealin'.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = KGPC4L7ZYP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RPCircularProgress\"/**",
+				);
+				INFOPLIST_FILE = "McStealin'/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stewartj.McStealin-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D74F16A123AA4A3100B11F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3972AE55E45132B786768359 /* Pods-McStealin'.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = KGPC4L7ZYP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RPCircularProgress\"/**",
+				);
+				INFOPLIST_FILE = "McStealin'/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stewartj.McStealin-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D74F16A323AA4A3100B11F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4AABEA1A6E3514CBEB3A2AF /* Pods-McStealin'Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGPC4L7ZYP;
+				INFOPLIST_FILE = "McStealin'Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stewartj.McStealin-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McStealin'.app/McStealin'";
+			};
+			name = Debug;
+		};
+		D74F16A423AA4A3100B11F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFF4CE5B344FF02067DF566 /* Pods-McStealin'Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGPC4L7ZYP;
+				INFOPLIST_FILE = "McStealin'Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stewartj.McStealin-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McStealin'.app/McStealin'";
+			};
+			name = Release;
+		};
+		D74F16A623AA4A3100B11F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93613A917FF553BFDA112BD9 /* Pods-McStealin'-McStealin'UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGPC4L7ZYP;
+				INFOPLIST_FILE = "McStealin'UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stewartj.McStealin-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "McStealin'";
+			};
+			name = Debug;
+		};
+		D74F16A723AA4A3100B11F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA3AD333AE2E05165B99746 /* Pods-McStealin'-McStealin'UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGPC4L7ZYP;
+				INFOPLIST_FILE = "McStealin'UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stewartj.McStealin-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "McStealin'";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74F167023AA4A2C00B11F4E /* Build configuration list for PBXProject "McStealin'" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F169D23AA4A3100B11F4E /* Debug */,
+				D74F169E23AA4A3100B11F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74F169F23AA4A3100B11F4E /* Build configuration list for PBXNativeTarget "McStealin'" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F16A023AA4A3100B11F4E /* Debug */,
+				D74F16A123AA4A3100B11F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74F16A223AA4A3100B11F4E /* Build configuration list for PBXNativeTarget "McStealin'Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F16A323AA4A3100B11F4E /* Debug */,
+				D74F16A423AA4A3100B11F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74F16A523AA4A3100B11F4E /* Build configuration list for PBXNativeTarget "McStealin'UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74F16A623AA4A3100B11F4E /* Debug */,
+				D74F16A723AA4A3100B11F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74F166D23AA4A2C00B11F4E /* Project object */;
+}
